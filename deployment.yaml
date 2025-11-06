@@ -1,0 +1,30 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: projeto-app
+  labels:
+    app: projeto-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: projeto-app
+
+  template:
+
+    metadata:
+      labels:
+        app: projeto-app
+
+    spec:
+      containers:
+      - name: projeto-app
+      image: alan2442/projeto4:v1
+      ports:
+      - containerPort: 8080
+
+
+
+
