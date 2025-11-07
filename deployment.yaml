@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: projeto-app
-        image: alan2442/projeto4:v4
+        image: alan2442/projeto4:v6
         ports:
           - containerPort: 8080
 
