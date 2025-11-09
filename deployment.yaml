@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: projeto-app
-        image: alan2442/projeto4:de57733abd4dfa263fcc2190c1a6c9cad04ec86f
+        image: alan2442/projeto4:e17adc9514e3fd6513f909d25d858aead4ce8cca
         imagePullPolicy: Always       # garante que Kubernetes baixe a nova imagem
         ports:
           - containerPort: 8080
